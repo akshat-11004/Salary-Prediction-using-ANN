@@ -98,7 +98,6 @@ if st.button('🚀 Calculate Estimated Salary'):
         salary = float(prediction[0][0])
 
     # Display Result
-    st.balloons()
     st.markdown(f"""
         <div class="result-card">
             <h3 style="color: #6c757d;">Predicted Annual Salary</h3>
